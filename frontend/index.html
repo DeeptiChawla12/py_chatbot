@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Assistant</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="chat" class="container"></div>
+
+<div class="input-area">
+  <div class="input-box">
+
+    <button class="plus" onclick="toggleMenu()">+</button>
+
+    <div id="menu" class="menu">
+      <button onclick="triggerPhoto()">📷 Upload Image</button>
+      <button onclick="generateImage()">🎨 Generate Image</button>
+    </div>
+
+    <input id="msg" placeholder="Ask anything..." />
+
+    <button class="mic" onclick="toggleMic()">🎤</button>
+    <button class="send" onclick="send()">Send</button>
+
+    <input type="file" id="photo" accept="image/*" hidden>
+  </div>
+</div>
+
+<script defer src="app.js"></script>
+</body>
+</html>
