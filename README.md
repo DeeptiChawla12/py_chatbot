@@ -19,7 +19,7 @@ The system integrates Azure AI services to process user input and generate conte
 
 ## 🎥 Demo
 
-👉 Video Walkthrough: [Add Loom Link Here]
+👉 Video Walkthrough: https://drive.google.com/file/d/192itYYf16MmASJCP12IrBV9TOs1hNR7Q/view?usp=sharing
 
 👉 Screenshots:
 - Chat interface  
